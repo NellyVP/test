@@ -10,10 +10,12 @@
 		1C4CA0941F976989009B6324 /* imageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA0931F976989009B6324 /* imageRequest.swift */; };
 		1C4CA09B1F977115009B6324 /* MFSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA09A1F977115009B6324 /* MFSImage.swift */; };
 		1C4CA09D1F97742A009B6324 /* MySuperCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA09C1F97742A009B6324 /* MySuperCache.swift */; };
-		1C4CA0A01F97BFAD009B6324 /* NSURL+MFSRequestURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA09F1F97BFAD009B6324 /* NSURL+MFSRequestURL.swift */; };
-		1C4CA0A21F97C785009B6324 /* SlideShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA0A11F97C785009B6324 /* SlideShowController.swift */; };
+		1C4CA0A01F97BFAD009B6324 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA09F1F97BFAD009B6324 /* URLResponse.swift */; };
+		1C4CA0A21F97C785009B6324 /* MFSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA0A11F97C785009B6324 /* MFSController.swift */; };
+		1C4CA0A51F982000009B6324 /* SlideShowCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CA0A31F982000009B6324 /* SlideShowCollectionViewController.swift */; };
+		1C4CA0A61F982000009B6324 /* SlideShowCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C4CA0A41F982000009B6324 /* SlideShowCollectionViewController.xib */; };
 		5679670E1ECBC53700F1B57D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679670D1ECBC53700F1B57D /* AppDelegate.swift */; };
-		567967101ECBC53700F1B57D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679670F1ECBC53700F1B57D /* ViewController.swift */; };
+		567967101ECBC53700F1B57D /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679670F1ECBC53700F1B57D /* SlideShowViewController.swift */; };
 		567967131ECBC53700F1B57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567967111ECBC53700F1B57D /* Main.storyboard */; };
 		567967151ECBC53700F1B57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567967141ECBC53700F1B57D /* Assets.xcassets */; };
 		567967181ECBC53700F1B57D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567967161ECBC53700F1B57D /* LaunchScreen.storyboard */; };
@@ -34,11 +36,13 @@
 		1C4CA0931F976989009B6324 /* imageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageRequest.swift; sourceTree = "<group>"; };
 		1C4CA09A1F977115009B6324 /* MFSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MFSImage.swift; path = Entity/MFSImage.swift; sourceTree = "<group>"; };
 		1C4CA09C1F97742A009B6324 /* MySuperCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySuperCache.swift; sourceTree = "<group>"; };
-		1C4CA09F1F97BFAD009B6324 /* NSURL+MFSRequestURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSURL+MFSRequestURL.swift"; path = "Extension/NSURL+MFSRequestURL.swift"; sourceTree = "<group>"; };
-		1C4CA0A11F97C785009B6324 /* SlideShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowController.swift; sourceTree = "<group>"; };
+		1C4CA09F1F97BFAD009B6324 /* URLResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLResponse.swift; path = Extension/URLResponse.swift; sourceTree = "<group>"; };
+		1C4CA0A11F97C785009B6324 /* MFSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFSController.swift; sourceTree = "<group>"; };
+		1C4CA0A31F982000009B6324 /* SlideShowCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowCollectionViewController.swift; sourceTree = "<group>"; };
+		1C4CA0A41F982000009B6324 /* SlideShowCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideShowCollectionViewController.xib; sourceTree = "<group>"; };
 		5679670A1ECBC53700F1B57D /* MyFirstSlideshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSlideshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5679670D1ECBC53700F1B57D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5679670F1ECBC53700F1B57D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5679670F1ECBC53700F1B57D /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
 		567967121ECBC53700F1B57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		567967141ECBC53700F1B57D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		567967171ECBC53700F1B57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +73,10 @@
 		1C4CA0951F9770CF009B6324 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1C4CA0A71F9823D1009B6324 /* SlideShowCollectionViewController */,
+				567967111ECBC53700F1B57D /* Main.storyboard */,
+				567967161ECBC53700F1B57D /* LaunchScreen.storyboard */,
+				5679670F1ECBC53700F1B57D /* SlideShowViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -83,6 +91,7 @@
 		1C4CA0971F9770DE009B6324 /* Presentor */ = {
 			isa = PBXGroup;
 			children = (
+				1C4CA0A11F97C785009B6324 /* MFSController.swift */,
 			);
 			path = Presentor;
 			sourceTree = "<group>";
@@ -91,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1C4CA09A1F977115009B6324 /* MFSImage.swift */,
+				1C4CA09C1F97742A009B6324 /* MySuperCache.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -98,6 +108,7 @@
 		1C4CA0991F9770F0009B6324 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				5679670D1ECBC53700F1B57D /* AppDelegate.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -105,9 +116,19 @@
 		1C4CA09E1F97BE3C009B6324 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1C4CA09F1F97BFAD009B6324 /* NSURL+MFSRequestURL.swift */,
+				1C4CA09F1F97BFAD009B6324 /* URLResponse.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		1C4CA0A71F9823D1009B6324 /* SlideShowCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C4CA0A31F982000009B6324 /* SlideShowCollectionViewController.swift */,
+				1C4CA0A41F982000009B6324 /* SlideShowCollectionViewController.xib */,
+			);
+			name = SlideShowCollectionViewController;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		567967011ECBC53700F1B57D = {
@@ -137,15 +158,9 @@
 				1C4CA0971F9770DE009B6324 /* Presentor */,
 				1C4CA0961F9770D4009B6324 /* Interactor */,
 				1C4CA0951F9770CF009B6324 /* View */,
-				5679670D1ECBC53700F1B57D /* AppDelegate.swift */,
-				5679670F1ECBC53700F1B57D /* ViewController.swift */,
-				567967111ECBC53700F1B57D /* Main.storyboard */,
 				1C4CA0931F976989009B6324 /* imageRequest.swift */,
 				567967141ECBC53700F1B57D /* Assets.xcassets */,
-				567967161ECBC53700F1B57D /* LaunchScreen.storyboard */,
 				567967191ECBC53700F1B57D /* Info.plist */,
-				1C4CA09C1F97742A009B6324 /* MySuperCache.swift */,
-				1C4CA0A11F97C785009B6324 /* SlideShowController.swift */,
 			);
 			path = MyFirstSlideshow;
 			sourceTree = "<group>";
@@ -249,6 +264,7 @@
 				567967181ECBC53700F1B57D /* LaunchScreen.storyboard in Resources */,
 				567967151ECBC53700F1B57D /* Assets.xcassets in Resources */,
 				567967131ECBC53700F1B57D /* Main.storyboard in Resources */,
+				1C4CA0A61F982000009B6324 /* SlideShowCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567967101ECBC53700F1B57D /* ViewController.swift in Sources */,
-				1C4CA0A21F97C785009B6324 /* SlideShowController.swift in Sources */,
-				1C4CA0A01F97BFAD009B6324 /* NSURL+MFSRequestURL.swift in Sources */,
+				567967101ECBC53700F1B57D /* SlideShowViewController.swift in Sources */,
+				1C4CA0A21F97C785009B6324 /* MFSController.swift in Sources */,
+				1C4CA0A01F97BFAD009B6324 /* URLResponse.swift in Sources */,
 				1C4CA09D1F97742A009B6324 /* MySuperCache.swift in Sources */,
 				1C4CA0941F976989009B6324 /* imageRequest.swift in Sources */,
 				1C4CA09B1F977115009B6324 /* MFSImage.swift in Sources */,
 				5679670E1ECBC53700F1B57D /* AppDelegate.swift in Sources */,
+				1C4CA0A51F982000009B6324 /* SlideShowCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

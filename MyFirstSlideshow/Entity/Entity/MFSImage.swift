@@ -12,15 +12,16 @@ class MFSImage: NSObject {
     var imageID: String?
     var imageData: NSData?
     var lastAccessTime: NSDate?
-    var maxAge: NSDate?
+    var maxAge: Double?
     var accessCount: Int!
     
     
-    init (imgID: String ,imgData: NSData, preAccessTime: NSDate, numberOfRetrieval: Int) {
+    init (imgID: String ,imgData: NSData, preAccessTime: NSDate, numberOfRetrieval: Int, cachePeriod: Double) {
         super.init()
         imageID         = imgID
         imageData       = imgData
         lastAccessTime  = preAccessTime
         accessCount     = numberOfRetrieval
+        maxAge          = cachePeriod
     }
 }

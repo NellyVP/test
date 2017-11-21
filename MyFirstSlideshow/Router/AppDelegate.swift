@@ -15,19 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-      
-        //  Converted with Swiftify v1.0.6488 - https://objectivec2swift.com/
-        let hues = ["Apple": 6, "Banana": 5, "Peach": 14, "dfg": 2, "dfgh": 1, "fgtg": 1, "sf": 4]
-        
-        let leastHue = hues.min { a, b in a.value < b.value }
-        print(leastHue ?? "nothing to print")
-
-    
         return true
-        
-        
-        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
